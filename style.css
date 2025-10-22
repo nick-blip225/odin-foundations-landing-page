@@ -19,12 +19,47 @@ header {
     gap: 20px;
 }
 
+section {
+    display: flex;
+    flex: 1;
+    padding: 80px;
+}
+
+.section-one {
+    background-color: #1f2937;
+    img {
+        flex: 1.5;
+        background-color: #e5e7eb;
+    }
+    .title-container {
+        flex: 1;
+        padding: 28px;
+    }
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
 ul {
     list-style: none;
 }
 
-a {
+a, .section-one .title-container .subtext {
     text-decoration: none;
     color: #f9faf8;
     font-size: 18px;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    margin-top: 4px;
 }
