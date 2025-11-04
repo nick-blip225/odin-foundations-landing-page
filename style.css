@@ -86,6 +86,30 @@ section {
     }
 }
 
+.section-four {
+    .action-container {
+        background-color: #3882f6;
+        color: #f9faf8;
+        padding: 40px;
+        border-radius: 8px;
+        display: flex;
+        flex: auto;
+        justify-content: space-evenly;
+
+        .ca-text-container {
+            
+            .ca-title {
+            font-weight: 900;
+            }
+        }
+        
+        button {
+            border-color: #f9faf8;
+            border-width: 2px;
+        }
+    }
+}
+
 ul {
     list-style: none;
 }
