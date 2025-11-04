@@ -70,6 +70,22 @@ section {
     }
 }
 
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+
+    .quote {
+        font-size: 36px;
+        font-weight: 300;
+    }
+
+    .attribution {
+        text-align: end;
+        font-weight: 900;
+    }
+}
+
 ul {
     list-style: none;
 }
