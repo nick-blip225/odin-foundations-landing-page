@@ -129,3 +129,12 @@ button {
     height: 40px;
     margin-top: 4px;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
